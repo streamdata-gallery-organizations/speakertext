@@ -8,48 +8,42 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/938-speake
 x-kinRank: "7"
 x-alexaRank: "813304"
 tags: SpeakerText
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/speakertext/master/_listings/speakertext/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Speaker Text Iniate Transcript
-  x-api-slug: speaker-text
+- name: Speaker Text - Iniate Transcript
+  x-api-slug: transcripts-post
   description: This method is used to initiate one or more SpeakerText transcriptions.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/938-speakertext.jpg
   humanURL: http://speakertext.com/
-  baseURL: https://api.speakertext.com//v1//transcripts
-  tags: Transcripts
+  baseURL: https://api.speakertext.com//v1
+  tags: Audio, Voice, Indexing, SaaS, Technology, internet, Media, Transcripts, General
+    Data, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/speakertext/master/_listings/speakertext/transcripts-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/speakertext/master/_listings/speakertext/transcripts-post-openapi.md
-- name: Speaker Text Retrieve Transcription
-  x-api-slug: speaker-text
+- name: Speaker Text - Retrieve Transcription
+  x-api-slug: transcriptsid-get
   description: This method is used to retrieve the results of SpeakerText transcriptions.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/938-speakertext.jpg
   humanURL: http://speakertext.com/
-  baseURL: https://api.speakertext.com//v1//transcripts/{id}
-  tags: Transcripts
+  baseURL: https://api.speakertext.com//v1
+  tags: Audio, Voice, Indexing, SaaS, Technology, internet, Media, Transcripts, General
+    Data, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/speakertext/master/_listings/speakertext/transcriptsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/speakertext/master/_listings/speakertext/transcriptsid-get-openapi.md
-- name: Speaker Text
-  x-api-slug: speaker-text
-  description: cielo24 captions, transcripts, and video intelligence transforms unstructured
-    media into fully searchable structured media data, powering enhanced discovery,
-    reach, engagement, and accessibility compliance. Contact us for a demo.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/938-speakertext.jpg
-  humanURL: http://speakertext.com/
-  baseURL: https://api.speakertext.com//v1
-  tags: SpeakerText
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/speakertext/master/_listings/speakertext/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://sparkpost.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://speakertext.stack.network
 - type: x-base
   url: https://api.speakertext.com
 - type: x-contact-form
