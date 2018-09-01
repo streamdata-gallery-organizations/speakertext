@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - SpeakerText",
+	"description": "This is a repository of speakertext APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/speakertext.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-31",
+	"url": "http://speakertext.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "SpeakerText",
+			"x-api-slug": "speakertext",
+			"description": "cielo24 captions, transcripts, and video intelligence transforms unstructured media into fully searchable structured media data, powering enhanced discovery, reach, engagement, and accessibility compliance. Contact us for a demo.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/938-speakertext.jpg",
+			"humanURL": "http://speakertext.com/",
+			"baseURL": "https://api.speakertext.com//v1",
+			"tags": "SpeakerText",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/speakertext/master/_listings/speakertext/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "SpeakerText",
+	"include": [
+		{
+			"name": "SpeakerText",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/speakertext/master/_listings/speakertext/apis.yaml"
+		}
+	]
+}
